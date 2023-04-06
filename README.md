@@ -1,4 +1,4 @@
-# HVPT-EDS helper scripts
+# HVP-EDS helper scripts
 
 xyz2eds.py
 ==========
