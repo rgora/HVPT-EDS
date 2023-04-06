@@ -21,7 +21,7 @@ The usage of the script itself is rather self-explanatory, however, I have prepa
 
 ## References ##
 
-The hybrid variational–perturbational interaction energy decomposition scheme (VP-EDS) was proposed independently by Gutowski et al. [1] and Sokalski et al. [2] in the late 1980s. Historically the first quantum chemical theory of intermolecular interactions which dates back to 1930s was due to London et al. and was based on the stan- dard Rayleigh–Schrodinger perturbation expansion [3]. Even though its modern reformulation, namely the symmetry–adapted perturbation theory (SAPT) is nowadays probably the most advanced, elegant and successful approach in this field [3, 4], we believe that the VP–EDS scheme outlined below may still provide in certain cases a plausible alternative. Particularly in the case of extended systems, since due to its present implementation and interfacing with the GAMESS software package [5] and taking advantage of the direct SCF approach and multi-core architecture, it allows to perform calculations for systems which are often far beyond the reach of other similar approaches. 
+The hybrid variational–perturbational interaction energy decomposition scheme (VP-EDS) was proposed independently by Gutowski et al. [^1] and Sokalski et al. [^2] in the late 1980s. Historically the first quantum chemical theory of intermolecular interactions which dates back to 1930s was due to London et al. and was based on the stan- dard Rayleigh–Schrodinger perturbation expansion [3]. Even though its modern reformulation, namely the symmetry–adapted perturbation theory (SAPT) is nowadays probably the most advanced, elegant and successful approach in this field [3, 4], we believe that the VP–EDS scheme outlined below may still provide in certain cases a plausible alternative. Particularly in the case of extended systems, since due to its present implementation and interfacing with the GAMESS software package [5] and taking advantage of the direct SCF approach and multi-core architecture, it allows to perform calculations for systems which are often far beyond the reach of other similar approaches. 
 
 ### Partitioning of the interaction energy of a dimer ###
 
@@ -134,5 +134,5 @@ counterpoise method.
 
 ## References ##
 
-1 R. W. Góra, W. Bartkowiak, S. Roszak and J. Leszczyński, A New Theoretical Insight into the Nature of Intermolecular Interactions in the Molecular Crystal of Urea, J. Chem. Phys., 2002, 117, 1031–1039.
+[^1]: R. W. Góra, W. Bartkowiak, S. Roszak and J. Leszczyński, A New Theoretical Insight into the Nature of Intermolecular Interactions in the Molecular Crystal of Urea, J. Chem. Phys., 2002, 117, 1031–1039.
 2 R. W. Góra, W. Bartkowiak, S. Roszak and J. Leszczyński, Intermolecular Interactions in Solution: Elucidating the Influence of the Solvent, J. Chem. Phys., 2004, 120, 2802–2813.
