@@ -1,0 +1,21 @@
+ $system mwords=10 memddi=100 parall=.t. $end
+ $contrl scftyp=rhf runtyp=eds icharg=0 mult=1 units=angs
+         maxit=100 nprint=7 exetyp=run mplevl=2 ispher=1
+         icut=20 itol=30 aimpac=.f. cctyp=none $end
+ $eds    mch(1)=0,0 mmul(1)=1,1 mnr(1)=3 $end
+ $mp2    mp2prp=.t. code=ddi cutoff=1d-20 $end
+ $ccinp  iconv=14 maxcc=100 $end
+ $trans  cuttrf=1d-15 $end
+ $scf    dirscf=.t. fdiff=.f. diis=.t. soscf=.f.
+         conv=1d-11 swdiis=0.0001 npreo(1)=0,-1,1,9999 $end
+ $basis  gbasis=ccd $end
+ $data
+EDS
+c1 0
+O       8.0    0.0000000000    0.0000000000    0.0000000000
+H       1.0    0.9571758084    0.0000000000    0.0000000000
+H       1.0   -0.2455911614    0.9251605848    0.0000000000
+O       8.0    3.0004350032    0.0000000000    0.0000000000
+H       1.0    3.5058521939   -0.2917883352    0.7587343400
+H       1.0    3.5058521939   -0.2917883352   -0.7587343400
+ $end
