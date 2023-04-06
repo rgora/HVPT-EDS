@@ -17,4 +17,4 @@ Please contact the author [Robert W. Góra](mailto:robert.gora@pwr.edu.pl).
 
 For the details of the approach and the present implementation checkout the WiKi.
 
-The usage of the scripts is rather self-explanatory, however, I have prepared a short tutorial which is available through project's wiki.
+The usage of the scripts is rather self-explanatory, however, I have prepared a short [Tutorial](https://github.com/rgora/HVPT-EDS/wiki/Tutorial) which is available through project's wiki.
